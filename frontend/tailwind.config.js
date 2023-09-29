@@ -24,7 +24,7 @@ export default withMT({
         "black-sm": ["0 2px 4px rgb(0 0 0 / 0.5)"],
         "white-custom": ["0 0px 4px rgb(255 255 255)"],
       },
-      boxShadow: {},
+
       screens: {
         "sm-max": { max: "639px" },
         "md-max": { max: "767px" },
