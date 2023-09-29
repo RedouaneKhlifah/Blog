@@ -156,7 +156,7 @@ export function Header({ overlayState, onClick }) {
             href="#"
             className="mr-4 ml-2 cursor-pointer py-1.5 text-xl font-extrabold font-Lalezar"
           >
-            YouBlog
+            BlogTube
           </Typography>
         </div>
         <div className="w-4/12 ">

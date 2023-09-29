@@ -5,6 +5,7 @@ import Overlay from "../components/utils/Overlay";
 import { useState } from "react";
 import CategoryChip from "../components/utils/CategoryChip";
 import CategoryList from "../components/CategoryList";
+import ArticleCard from "../components/ArticleCard";
 
 function Home() {
   const [isOverlayOpen, setIsOverlayOpen] = useState(false);
