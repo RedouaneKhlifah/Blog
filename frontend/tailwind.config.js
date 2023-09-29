@@ -19,6 +19,7 @@ export default withMT({
       fontFamily: {
         cairo: ["Cairo", "sans-serif"],
         Lalezar: ["Lalezar", "cursive"],
+        Roboto : ['Roboto'," sans-serif"],
       },
       dropShadow: {
         "black-sm": ["0 2px 4px rgb(0 0 0 / 0.5)"],

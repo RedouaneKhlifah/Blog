@@ -39,7 +39,7 @@ function CategoryList({ categories }) {
         <div className="pr-2 absolute backdrop-blur-md bg-white left-0 top-1/2 transform -translate-y-1/2  ">
           <div className="bg-white backdrop-blur-md ">
             <button
-              className="hover:bg-gray-600 px-2 py-1  rounded-full"
+              className="hover:bg-gray-300 px-2 py-1  rounded-full"
               onClick={handleScrollLeft}
             >
               <img
@@ -55,7 +55,7 @@ function CategoryList({ categories }) {
         <div className="pl-2  absolute backdrop-blur-md bg-white right-0 top-1/2 transform -translate-y-1/2  ">
           <div className="bg-white backdrop-blur-md ">
             <button
-              className="hover:bg-gray-600 px-2 py-1  rounded-full"
+              className="hover:bg-gray-300 px-2 py-1  rounded-full"
               onClick={handleScrollRight}
             >
               <img
