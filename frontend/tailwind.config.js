@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-import withMT from "@material-tailwind/react/utils/withMT";
 import plugin from "tailwindcss/plugin";
+import withMT from "@material-tailwind/react/utils/withMT";
 
 export default withMT({
   mode: "jit",
@@ -18,6 +18,7 @@ export default withMT({
       },
       fontFamily: {
         cairo: ["Cairo", "sans-serif"],
+        Lalezar: ["Lalezar", "cursive"],
       },
       dropShadow: {
         "black-sm": ["0 2px 4px rgb(0 0 0 / 0.5)"],
@@ -39,8 +40,8 @@ export default withMT({
     },
   },
   plugins: [
-    require("flowbite/plugin"),
-    require("tailwind-scrollbar"),
+    require("tailwindcss"),
+    require("autoprefixer"),
     plugin(function ({ addVariant }) {
       addVariant("child", "&>*");
       addVariant("child-hover", "&>*:hover");
